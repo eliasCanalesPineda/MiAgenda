@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:text="Introduzca su nombre o teléfono"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/txtCriterio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre o teléfono"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:id="@+id/Buscar"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="Buscar"
+        android:layout_marginTop="120dp"/>
+    <Button
+        android:id="@+id/Agregar"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="Agregar"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="120dp"/>
+    <ListView
+        android:id="@+id/lvContacto"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:layout_marginTop="190dp"/>
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Registrar_Contacto">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRAR CONTACTO BD"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/IngreNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del contacto"
+        android:textColorHint="@color/black"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:id="@+id/IngreTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teléfono"
+        android:padding="5dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="90dp"/>
+    <Button
+        android:id="@+id/Agregar"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="Agregar"
+        android:layout_marginTop="140dp"/>
+    <Button
+        android:id="@+id/Regresar"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="Back"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="140dp"/>
+</RelativeLayout>
